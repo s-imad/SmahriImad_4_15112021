@@ -677,16 +677,21 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
-
+.citation-txt {
+    font-size: 1.3em;
+}
+.auteur-citation {
+    font-size: 1em;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 2em;
     font-family: "Open Sans";
 }
 
@@ -698,7 +703,9 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
-
+.text-img {
+    font-size: 1.6em;
+}
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
