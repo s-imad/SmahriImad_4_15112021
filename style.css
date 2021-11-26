@@ -677,13 +677,13 @@ a {
 }
 
 p {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 .citation-txt {
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 .auteur-citation {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 .tight-width-whitespace {
     max-width: 600px;
@@ -691,7 +691,7 @@ p {
 }
 
 .h1 {
-    font-size: 2em;
+    font-size: 2.2em;
     font-family: "Open Sans";
 }
 
@@ -781,9 +781,10 @@ h4 {
     background-color: #F3976C;
 }
 
-/*.tc-white {
-    color: #F3976C!important;
-}*/
+.tc-white {
+    /*color: #F3976C!important;*/
+    color: #fae3d6!important;
+}
 
 .btn-atomic-tangerine {
     background: #F3976C;
