@@ -34,7 +34,7 @@
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="la-chouette-agence" height="40" width="214" /></a>
+						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.webp" alt="la-chouette-agence" height="40" width="214" /></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 						</button>
@@ -81,13 +81,13 @@
 					<div class="col-sm-6">
 						<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label>
+								<label for="name">
 									Nom
 								</label>
-								<input id="name" class="form-control" role="form" title="Entrez votre nom" required  />
+								<input id="name" aria-label="name" class="form-control" role="form" title="Entrez votre nom" required  />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="email">
 									Adresse email
 								</label>
 								<input id="email" class="form-control" type="email" role="form" title="Entrez votre email" required  />
