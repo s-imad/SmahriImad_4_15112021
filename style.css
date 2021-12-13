@@ -677,8 +677,21 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
+
+#citation-text {
+    font-size: 1.3em;
+    font-style: italic;
+    color: #575757!important;
+}
+#citation-auteur {
+    font-size: 1em;
+    font-style: normal;
+    color: #575757!important;
+}
+
+
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -686,7 +699,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 32px;
     font-family: "Open Sans";
 }
 
@@ -705,7 +718,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 1.6em;
     line-height: 1.4em;
 }
 
